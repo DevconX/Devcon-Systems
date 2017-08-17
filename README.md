@@ -22,3 +22,6 @@ Program Tentative:
 * 12:00 PM - 2:00 PM : Lunch Break
 * 2:00 PM - 6:30 PM: Android, iOS, IoT, Web Dev, Machine Learning and Augmented Reality Workshops
 
+### [Workshop Requirements](https://github.com/DevconX/academia/blob/master/requirements.md)
+### [Code of Conduct](https://github.com/DevconX/academia/blob/master/code-of-conduct.md)
+
