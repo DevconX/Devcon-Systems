@@ -25,5 +25,5 @@ NOTE: please check the version of your pip installer before installing anything 
       If the command resulted in (Python 3.x) at the end of the line, you are good to go. If it is (Python 2.x) then  
       please replace the below command with "pip3" instead of just "pip". 
       
-Pip installation commands on the terminal (cmd) :
+Terminal (CMD) command to install the packages through pip-installer :
 * pip install scipy numpy scikit-learn sklearn pandas matplotlib seaborn opencv2 xgboost lightgbm
