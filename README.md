@@ -6,9 +6,9 @@ We are a community that promotes **Free Education** to educate people anything r
 
 ## Upcoming Event
 
-**Meetup #1**
+**Meetup #2**
 
-Date: 20/08/2017
+Date: 16/09/2017
 
 Time: 9:00 AM - 6:30 PM
 
@@ -17,10 +17,12 @@ Venue: Malaysian Global Innovation & Creativity Centre (MaGIC), Block 3730, Pers
 Program Tentative:
 
 * 9:00 AM - 10:00 AM : Registration
-* 10:00 AM - 11:00 AM : Opening Keynote
-* 11: 00 AM - 12:00 PM : Programming 101 & System Architecture
+* 10:00 AM - 11:00 AM : Breifing and Presentation
+* 11: 00 AM - 12:00 PM : Workshops
 * 12:00 PM - 2:00 PM : Lunch Break
-* 2:00 PM - 6:30 PM: Android, iOS, IoT, Web Dev, Machine Learning and Augmented Reality Workshops
+* 2:00 PM - 6:00 PM: Workshops
+
+### Please bring along your laptop or desktop as we wont be providing it.
 
 ### Please bring along plug extension as power point will limited.
 
