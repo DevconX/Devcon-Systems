@@ -22,7 +22,7 @@ Pip-installer installation:
 
 
 NOTE: please check the version of your pip installer before installing anything with this following command:
-      * pip --version
+* pip --version
       If the above command resulted in (Python 3.x) at the end of the line, you are good to go. If it is (Python 2.x) then  
       please replace the below command with "pip3" instead of just "pip". 
       
