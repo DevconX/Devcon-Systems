@@ -26,4 +26,4 @@ NOTE: please check the version of your pip installer before installing anything 
       please replace the below command with "pip3" instead of just "pip". 
       
 Pip installation commands on the terminal (cmd) :
-pip install scipy numpy scikit-learn sklearn pandas matplotlib seaborn opencv2 xgboost lightgbm
+* pip install scipy numpy scikit-learn sklearn pandas matplotlib seaborn opencv2 xgboost lightgbm
