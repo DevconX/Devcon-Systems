@@ -10,7 +10,7 @@ We are a community that promotes **Free Education** to educate people anything r
 
 Date: 16/09/2017
 
-Time: 9:00 AM - 6:30 PM
+Time: 9:00 AM - 6:00 PM
 
 Venue: Malaysian Global Innovation & Creativity Centre (MaGIC), Block 3730, Persiaran APEC, 63000 Cyberjaya, Malaysia
 
