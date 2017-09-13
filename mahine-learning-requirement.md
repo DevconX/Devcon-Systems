@@ -16,9 +16,9 @@
 * lightgbm
 
 Pip-installer installation:
-Windows : https://github.com/BurntSushi/nfldb/wiki/Python-&-pip-Windows-installation
-Linux : https://packaging.python.org/guides/installing-using-linux-tools/
-Mac OS : https://stackoverflow.com/questions/17271319/how-do-i-install-pip-on-macos-or-os-x
+* Windows : https://github.com/BurntSushi/nfldb/wiki/Python-&-pip-Windows-installation
+* Linux : https://packaging.python.org/guides/installing-using-linux-tools/
+* Mac OS : https://stackoverflow.com/questions/17271319/how-do-i-install-pip-on-macos-or-os-x
 
 
 NOTE: please check the version of your pip installer before installing anything with this following command:
