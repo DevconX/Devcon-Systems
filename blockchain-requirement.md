@@ -26,11 +26,10 @@ It is worth noting that in this session we will be focusing on JavaScript.. but 
 
  ![nw1](https://i.imgur.com/kijOlmQ.png)
 4. Ensure the .wlt file is downloaded, check both boxes and click **I agree**
-
  ![nw2](https://i.imgur.com/zeVbkqO.png)
-5. Select your new wallet in the drop-down, enter your password and Sign In
-6. Navigate to **Send** > **Receive**. The long random alphanumeric string is your testnet address.
-7. Copy your address and paste it in the D2-Blockchain telegram group. A telegram bot will send 100 testnet XEMs to each address.
+5. Select your new wallet in the drop-down, enter your password and Sign In  
+6. Navigate to **Send** > **Receive**. The long random alphanumeric string is your testnet address.  
+7. Copy your address and paste it in the D2-Blockchain telegram group. A telegram bot will send 100 testnet XEMs to each address.  
 
  ![nw3](https://i.imgur.com/KMiz5HD.png)
 
