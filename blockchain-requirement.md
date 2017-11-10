@@ -12,11 +12,24 @@ It is worth noting that in this session we will be focusing on JavaScript.. but 
 
 ## Requirements:
 
-- Node.js and `npm` installed (preferably latest) you can install Node.js [here](https://nodejs.org/en/download/current/)
-- Insomnia is a powerful REST API Client that can be downloaded for free [here](https://insomnia.rest/download/)
-- NanoWallet: [Universal version](https://github.com/NemProject/NanoWallet/releases/download/1.4.13/NanoWallet-1.4.13.zip)
-- OS: any
-- IDE: any ( i will be using vscode)
+- code editor of your choice
+- that's it
+here is a list of wrappers or packages for every language please download the one you want to use:
+### java:
+- [NEM core](http://github.com/nemproject/nem.core)
+### javascript:
+- [NEM SDK](https://github.com/QuantumMechanics/NEM-sdk)
+### Typescript:
+- [NEM library](https://github.com/aleixmorgadas/nem-library-ts)
+### C#:
+- [CSharp2NEM](https://github.com/NemProject/csharp2nem)
+### Ruby:
+- [nis ruby](https://github.com/44uk/nis-ruby)
+### PHP:
+- [NEM api library](https://github.com/namuyan/NEM-Api-Library)
+
+### Other dev resources:
+Check thi out: [NEM resources](https://github.com/Xpedite/NEM-Resources/blob/master/DEV_Resources.md)
 
 ## Setting up NanoWallet
 
