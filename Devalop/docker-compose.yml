@@ -1,0 +1,12 @@
+version: "2"
+services:
+  mariadb:
+    image: mariadb:latest
+    container_name: "mariadb"
+    volumes:
+      - ./docker/mariadb:/var/lib/mysql
+    ports:
+      - 3306:3306
+    environment:
+      - MYSQL_ROOT_PASSWORD=docker
+      - MYSQL_DATABASE=academia_dev

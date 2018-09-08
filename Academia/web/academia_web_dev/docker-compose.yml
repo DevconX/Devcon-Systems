@@ -1,0 +1,29 @@
+version: '2'
+
+services:
+  php:
+    build:
+      context: ./docker/php
+      dockerfile: Dockerfile-70
+    restart: always
+    volumes:
+      - ./:/var/www/html
+  mariadb:
+    build: ./docker/mariadb
+    restart: always
+    volumes:
+      - ./docker/data/mysql:/var/lib/mysql
+    ports:
+      - "3306:3306"
+    environment:
+      MYSQL_DATABASE: "devcon_academia"
+      MYSQL_USER: "docker"
+      MYSQL_PASSWORD: "docker"
+      MYSQL_ROOT_PASSWORD: "root"
+  redis:
+    build: ./docker/redis
+    restart: always
+    volumes:
+      - ./docker/data/redis:/data
+    ports:
+      - "6379:6379"

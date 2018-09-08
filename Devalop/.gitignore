@@ -1,0 +1,9 @@
+/_build
+/cover
+/deps
+/docker
+erl_crash.dump
+*.ez
+.DS_Store
+.deliver/releases/
+/rel/*/**

@@ -1,0 +1,29 @@
+<div class="row">
+
+  <div class="col-sm-12">
+      <h4 class="page-title">Workshops</h4>
+      <p class="text-muted page-title-alt">List of available workshops</p>
+  </div>
+
+  <%= for workshop <- @workshops do %>
+    <div class="col-lg-4 workshop-card">
+      <div class="card-box p-0">
+        <div class="profile-widget text-center">
+            <%= if(File.exists?(get_image_path("#{workshop.workshop.slug}.jpg"))) do %>
+              <%= img_tag(static_path(@conn, "/images/trainers/#{workshop.workshop.slug}.jpg"), class: "thumb-lg img-circle img-thumbnail" ) %>
+            <%= else %>
+              <%= img_tag(static_path(@conn, "/images/I0pBwxh6.jpg"), class: "thumb-lg img-circle img-thumbnail" ) %>
+            <% end %>
+            <h4><%= workshop.workshop.name %></h4>
+            <p class="text-muted">Meetup #2</p>
+            <%= link("View Workshop", to: "/workshops/#{workshop.workshop.slug}", class: "btn btn-sm btn-purple m-t-10") %>
+            <ul class="list-inline widget-list clearfix">
+                <li class="col-md-4"><span><%= length(workshop.topics) %></span>Topics</li>
+                <li class="col-md-4"><span>0</span>Tasks</li>
+                <li class="col-md-4"><span>0</span>Students</li>
+            </ul>
+        </div>
+      </div>
+    </div>
+  <% end %>
+</div>

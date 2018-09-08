@@ -1,0 +1,104 @@
+<mjml>
+  <mj-body>
+    <mj-container>
+      <mj-section padding-bottom="0" background-color="white">
+        <mj-column width="100%">
+          <mj-image src="https://raw.githubusercontent.com/DevconX/academia/master/assets/academia-logo.png" width="250px"/>
+          <mj-divider
+            padding-top="20"
+            padding-bottom="0"
+            padding-left="0"
+            padding-right="0"
+            border-width="1px"
+            border-color="#f8f8f8"/>
+        </mj-column>
+      </mj-section>
+
+      <mj-section padding-bottom="0" background-color="#fcfcfc">
+        <mj-column width="100%">
+          <mj-text align="center" font-size="20" color="grey" font-family="Helvetica Neue" font-weight="200">
+          Hello! Welcome to our Meetup #2
+            </mj-text>
+            <mj-divider
+                padding-top="20"
+                padding-bottom="0"
+                padding-left="0"
+                padding-right="0"
+                border-width="1px"
+                border-color="#f8f8f8"/>
+        </mj-column>
+      </mj-section>
+
+      <mj-section padding-bottom="0">
+        <mj-column>
+          <mj-text font-size="20" color="rgb(165, 176, 184)">
+            Who The Hell Are We?
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section padding-top="0">
+        <mj-column width="600">
+          <mj-text font-size="14" color="rgb(165, 176, 184)">
+            We are a community that promotes Free Education to educate people anything related with technology. We have a bunch of talented people that are willing to sacrifice their time and energy to teach.
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section padding-bottom="0">
+        <mj-column>
+          <mj-text font-size="20" color="rgb(165, 176, 184)">
+            Meetup #2
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section padding-top="0">
+        <mj-column width="600">
+          <mj-text font-size="14" color="rgb(165, 176, 184)">
+            Date: 16/09/2017<br>
+            Time: 9:00 AM - 6:00 PM<br>
+            Venue: Malaysian Global Innovation & Creativity Centre (MaGIC), Block 3730, Persiaran APEC, 63000 Cyberjaya, Malaysia
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section padding-bottom="0">
+        <mj-column>
+          <mj-text font-size="20" color="rgb(165, 176, 184)">
+            Requirements
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section padding-top="0">
+        <mj-column width="600">
+          <mj-text font-size="14" color="rgb(165, 176, 184)">
+            Please ensure that you understand the workshop requirements and come prepared, as we will not go through the installation process. You can find the requirements needed here <a href="https://github.com/DevconX/academia">https://github.com/DevconX/academia</a>.<br><br>
+            <strong>Please bring along your laptop or desktop as we wont be providing it.</strong><br><br>
+            <strong>Please also bring along plug extension as there will not be enough power point.</strong>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section padding-bottom="0">
+        <mj-column>
+          <mj-text font-size="20" color="rgb(165, 176, 184)">
+            Get Updated
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section padding-top="0">
+        <mj-column width="600">
+          <mj-text font-size="14" color="rgb(165, 176, 184)">
+            <ol>
+              <li>Join our telegram group <a href="https://t.me/joinchat/Ai-ffUO0vEy5W_0s8xu2rw">https://t.me/joinchat/Ai-ffUO0vEy5W_0s8xu2rw</a></li>
+              <li>Follow closely <a href="https://fb.com/devconacademy">https://fb.com/devconacademy</a>
+            </ol>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-container>
+  </mj-body>
+</mjml>

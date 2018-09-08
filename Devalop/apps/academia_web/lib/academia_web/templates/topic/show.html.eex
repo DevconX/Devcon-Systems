@@ -1,0 +1,70 @@
+<div class="row">
+  <div class="col-sm-12">
+    <h4 class="page-title"><%= @topic.name %></h4>
+    <p class="text-muted page-title-alt">List of available tasks for <%= @topic.event_workshop.workshop.name %> Workshop</p>
+  </div>
+
+    <%= if(length(@topic.items) > 0) do %>
+    <div class="col-lg-7">
+      <div class="card-box">
+      <h4 class="text-dark header-title m-b-20">In Progress</h4>
+      <hr>
+      <ul class="sortable-list taskList list-unstyled" id="upcoming">
+        <%= for item <- @topic.items do %>
+          <%= if(!get_task_completion(@conn, item.id)) do %>
+            <li class="task-default">
+              <!--
+              <div class="checkbox checkbox-custom checkbox-single pull-right">
+                  <input type="checkbox" aria-label="Single checkbox Two">
+                  <label></label>
+              </div>
+              -->
+              <div class="m-b-10">
+                <p class="pull-right">
+                  <input type="checkbox" class="task_checkbox" value="<%= get_task_id(@conn, item.id) %>">
+                  <label></label>
+                </p>
+                <p class="m-b-0"><span class="font-bold"><%= item.name %></span></p>
+              </div>
+              <%= raw(item.description) %>
+            </li>
+          <%= end %>
+        <% end %>
+      </ul>
+    </div>
+    </div>
+
+    <div class="col-lg-5">
+      <div class="card-box">
+      <h4 class="text-dark header-title m-b-20">Completed</h4>
+      <hr>
+      <ul class="sortable-list taskList list-unstyled" id="upcoming">
+        <%= for item <- @topic.items do %>
+          <%= if(get_task_completion(@conn, item.id)) do %>
+            <li class="task-success">
+              <!--
+              <div class="checkbox checkbox-custom checkbox-single pull-right">
+                  <input type="checkbox" aria-label="Single checkbox Two">
+                  <label></label>
+              </div>
+              -->
+              <div class="m-b-10">
+                <p class="m-b-0"><span class="font-bold"><%= item.name %></span></p>
+              </div>
+            </li>
+          <%= end %>
+        <% end %>
+      </ul>
+    </div>
+    </div>
+    <%= else %>
+      <div class="col-lg-12">
+      <div class="panel panel-default">
+        <div class="panel-body text-center">
+          <h4 class="text-muted">Ooops! Sorry No items available for this topic.</h4>
+          <%= link("View All Topics", to: "/workshops/#{@topic.event_workshop.workshop.slug}", class: "btn btn-purple m-t-20") %>
+        </div>
+      </div>
+    </div>
+    <% end %>
+</div>

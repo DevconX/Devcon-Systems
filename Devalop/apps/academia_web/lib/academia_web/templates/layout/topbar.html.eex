@@ -1,0 +1,23 @@
+<div class="topbar">
+    <div class="topbar-left">
+        <div class="text-center">
+            <a href="index.html" class="logo"><i class="icon-magnet icon-c-logo"></i><span>DevALOP</span></a>
+            <!-- Image Logo here -->
+            <!--<a href="index.html" class="logo">-->
+                <!--<i class="icon-c-logo"> <img src="assets/images/logo_sm.png" height="42"/> </i>-->
+                <!--<span><img src="assets/images/logo_light.png" height="20"/></span>-->
+            <!--</a>-->
+        </div>
+    </div>
+
+    <!-- Button mobile view to collapse sidebar menu -->
+    <div class="navbar navbar-default" role="navigation">
+        <ul class="nav navbar-nav navbar-right pull-right">
+            <li class="top-menu-item-xs">
+                <a href="/auth/logout" class="text-bold waves-effect waves-light">
+                    <i class="fa fa-hand-spock-o"></i> Logout</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+</div>
